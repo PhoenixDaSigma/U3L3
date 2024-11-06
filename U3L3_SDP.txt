@@ -1,0 +1,7 @@
+1. The base case is when the half of the list being split can be split no further.
+
+2. It recurses whenever a part of the list can be split further.
+
+3. I will reference the first half of the list like so: listName[:(half of list length)], which will cleanly cut the list into two.
+
+4. The two lists will already be sorted, so instead of dealing with one large set of data, there are two more manageable sets that have already been sorted.
